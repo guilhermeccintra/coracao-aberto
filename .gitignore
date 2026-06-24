@@ -1,0 +1,11 @@
+# Dependências e arquivos desnecessários
+node_modules/
+.DS_Store
+Thumbs.db
+*.log
+.env
+.vercel
+
+# Arquivos binários do Facebook Pixel (não são necessários no deploy)
+scripts/965878962553225.bin
+scripts/fbevents.js
